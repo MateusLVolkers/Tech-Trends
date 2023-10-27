@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: yellow;
+}
+
+#header-logo {
+  height: 90px;
+  width: 90px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#cima {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cima-esquerda {
+  text-align: center;
+  max-width: 650px;
+}
+
+#cima-subtitulo {
+  padding-top: 10px;
+}
+
+#cima-logo {
+  width: 300px;
+  height: 300px;
+}
+
+#cima-paragrafo {
+  padding: 15px;
+  max-width: 450px;
+}
+
+
+#baixo {
+  display: flex;
+  flex-direction: row;
+}
+
+.baixo-paragrafo {
+  padding: 20px 80px;
+}
+
+#baixo-esquerda, #baixo-direita, #baixo-centro {
+  color: white;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+
+#baixo-esquerda {
+  background-color: rgb(6, 28, 67);
+}
+
+#baixo-direita {
+  background-color: rgb(6, 28, 67);
+}
+
+#baixo-centro {
+  background-color: rgb(62, 202, 176);
+}
+
+footer {
+  background-color: brown;
+}
