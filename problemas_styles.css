@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#baixo-esquerda {
+  color: white;
+  background-color: rgb(6, 28, 67);
+}
+
+#baixo-direita {
+  color: white;
+  background-color: rgb(6, 28, 67);
+}
+
+#baixo-centro {
+  color: white;
+  background-color: rgb(62, 202, 176);
+}
