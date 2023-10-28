@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -22,6 +23,22 @@ header {
 
 #header-esquerda {
   margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-nome {
+  padding-left: 5px;
+}
+
+#header-nome h1 {
+  font-size: 18px;
+}
+
+#header-nome p {
+  font-size: 12px;
 }
 
 #header-direita {
@@ -130,7 +147,23 @@ main {
   background-color: rgb(62, 202, 176);
 }
 
+
 footer {
+  background-color: rgb(6, 28, 67);
   height: 50px;
-  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  color: white;
+}
+
+#footer-logo {
+  height: 60px;
+  width: 60px;
+}
+
+#footer-direita a {
+  margin-right: 4px;
 }
