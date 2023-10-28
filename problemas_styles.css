@@ -3,14 +3,6 @@
   padding: 0;
 }
 
-header {
-  background-color: yellow;
-}
-
-#header-logo {
-  height: 90px;
-  width: 90px;
-}
 
 body {
   height: 100vh;
@@ -18,6 +10,76 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: rgb(6, 28, 67);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#header-esquerda {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-nome {
+  padding-left: 5px;
+}
+
+#header-nome h1 {
+  font-size: 18px;
+}
+
+#header-nome p {
+  font-size: 12px;
+}
+
+#header-direita {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#header-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-logo {
+  height: 90px;
+  width: 90px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-login {
+  background-color: rgb(107, 12, 155);
+  border-radius: 15px;
+  text-align: center;
+  padding: 12px;
+}
+
+#header-direita a {
+  color: white;
 }
 
 main {
@@ -31,6 +93,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  flex-grow: 4;
 }
 
 #cima-esquerda {
@@ -44,7 +107,7 @@ main {
 
 #cima-logo {
   width: 300px;
-  height: 300px;
+  height: 199.63px;
 }
 
 #cima-paragrafo {
@@ -56,6 +119,8 @@ main {
 #baixo {
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .baixo-paragrafo {
@@ -64,7 +129,7 @@ main {
 
 #baixo-esquerda, #baixo-direita, #baixo-centro {
   color: white;
-  padding: 40px;
+  padding: 30px;
   align-items: center;
   text-align: center;
 }
@@ -82,6 +147,23 @@ main {
   background-color: rgb(62, 202, 176);
 }
 
+
 footer {
-  background-color: brown;
+  background-color: rgb(6, 28, 67);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  color: white;
+}
+
+#footer-logo {
+  height: 60px;
+  width: 60px;
+}
+
+#footer-direita a {
+  margin-right: 4px;
 }
