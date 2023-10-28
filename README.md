@@ -1,3 +1,3 @@
 # Tech Trends
 
-Repositório criado para o trabalho da disciplina Trabalho colaborativo e mídias digitais do curso Tecnólogo em Sistemas para Internet do Instituto Federal do Espírito Santo.
+Repositório criado para o desenvolvimento da atividade em grupo da disciplina Trabalho colaborativo e mídias digitais do curso Tecnólogo em Sistemas para Internet do Instituto Federal do Espírito Santo.
