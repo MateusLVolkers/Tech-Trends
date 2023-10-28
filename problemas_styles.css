@@ -13,19 +13,22 @@ body {
 }
 
 header {
-  background-color: yellow;
+  background-color: rgb(6, 28, 67);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
+#header-esquerda {
+  margin-top: 20px;
+}
+
 #header-direita {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-
-
 
 #header-nav {
   display: flex;
@@ -43,7 +46,7 @@ ul {
 }
 
 li {
-  padding-right: 4px;
+  padding-right: 12px;
 }
 
 a {
@@ -52,9 +55,14 @@ a {
 }
 
 #header-login {
-  background-color: aliceblue;
+  background-color: rgb(107, 12, 155);
   border-radius: 15px;
   text-align: center;
+  padding: 12px;
+}
+
+#header-direita a {
+  color: white;
 }
 
 main {
@@ -68,7 +76,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  flex-grow: 1;
+  flex-grow: 4;
 }
 
 #cima-esquerda {
@@ -82,7 +90,7 @@ main {
 
 #cima-logo {
   width: 300px;
-  height: 300px;
+  height: 199.63px;
 }
 
 #cima-paragrafo {
