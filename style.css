@@ -1,0 +1,93 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+}
+
+.img {
+
+
+
+}
+
+.subs {
+
+    flex-direction: column;
+    
+}
+
+.marketing {
+
+    background-color: white;
+    min-width: 700px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.parcerias {
+
+    background-color: #071c42;
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+    
+
+}
+
+.conteudo {
+
+    background-color: #3dcab1;
+    min-height: 200px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+
+    
+  
+
+}
+
+.abordagem {
+
+    background-color: #071c42;
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.coluna {
+
+    min-height: 200px;
+}
+
+.titulo {
+
+    font-size: 60px;
+}
+
