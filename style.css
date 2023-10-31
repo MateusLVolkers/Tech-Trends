@@ -99,21 +99,6 @@ a {
   text-align: justify;
 }
 
-#nav-bar {
-  position: fixed;
-  float: left;
-  display: flex;
-  flex-direction: column;
-}
-
-#nav-bar-ul {
-  display: block;
-}
-
-#nav-bar-ul li {
-  padding: 10px;
-}
-
 main {
   display: flex;
   flex-direction: column;
