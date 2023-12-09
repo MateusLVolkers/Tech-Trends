@@ -355,3 +355,37 @@ aside h1 {
   display: flex;
   height: -webkit-fill-available;
   }
+
+
+/* Ciberataque */
+
+#imagem_cibersegurança {
+  width: 300px;
+  height: 200px;
+}
+
+#ciberataque-main {
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-cima {
+    align-self: center;
+    margin-top: 100px;
+}
+
+#titulo-cima h3 {
+  margin-top: 20px;
+}
+
+#ciberataque-baixo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 150px;
+}
+
+#ciberataque-baixo-direita {
+  width: 400px;
+}
